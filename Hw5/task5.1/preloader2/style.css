@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.circle-1{
+    width: 50px;
+    height: 50px;
+    background-color: #689dff;
+    border-radius: 50%;
+    display: flex;
+    animation: circle-1 1.5s linear infinite alternate ;
+}
+.circle-2{
+    width: 50px;
+    height: 50px;
+    background-color: #68edff;
+    border-radius: 50%;
+    display: flex;
+    animation: circle-2 1.5s linear infinite alternate ;
+}
+@keyframes circle-1{
+    0%{
+
+        transform: scale(0.5) translateY(-10px) ;
+    }
+    100%{
+
+        transform: scale(1) translateY(60px) ;
+        background-color: #68edff;
+    }
+}
+@keyframes circle-2{
+    0%{
+
+        transform: scale(1) translateY(-60px) ;
+        background-color: #689dff;
+    }
+    100%{
+
+        transform: scale(0.5) translateY(10px) ;
+        background-color: #68edff;
+    }
+}

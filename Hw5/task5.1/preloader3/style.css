@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.rect-1, .rect-2, .rect-3{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(104, 255, 157, 0);
+    border: 5px solid #68ffa4;
+    display: flex;
+}
+.rect-1{
+    animation: rect-1 1s linear infinite alternate ;
+}
+.rect-2{
+    animation: rect-2 1s linear infinite alternate ;
+}
+.rect-3{
+    animation: rect-3 1s linear infinite alternate ;
+}
+@keyframes rect-1{
+    0%{
+        border: 5px solid rgba(104, 255, 164, 0);
+    }
+    100%{
+        border: 5px solid #68ffa4;
+        transform: translateX(45px);
+    }
+}
+@keyframes rect-2{
+    0%{
+
+    }
+    100%{
+        border: 5px solid rgba(104, 255, 164, 0);
+    }
+}
+@keyframes rect-3 {
+    0%{
+        border: 5px solid rgba(104, 255, 164, 0);
+    }
+    100%{
+        border: 5px solid #68ffa4;
+        transform: translateX(-45px);
+    }
+}
+
