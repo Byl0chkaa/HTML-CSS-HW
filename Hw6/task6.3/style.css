@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:"Roboto Light", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.entering-form{
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+}
+.entering-form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.registration{
+    height: 60px;
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.entering-form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.1);
+    margin: -380px;
+    padding-bottom: 20px;
+}
+input[type="text"], input[type="password"]{
+    width: 300px;
+    height: 40px;
+    background: rgba(211, 211, 211, 0.19);
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    border-radius: 2px;
+    padding-left: 7px;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 35px;
+    font-weight: 550;
+    border: none;
+    border-radius: 10px;
+    background-color: #67b4f8;
+    color: white;
+    margin: 10px;
+}
+.entering-form>form>h3{
+    margin: 15px;
+    color: #808080;
+    font-size: 16px;
+}
+.entering-form>form>ul>li>a:link{
+    font-weight: 550;
+    color: #375084;
+}
+.entering-form>form>ul>li{
+    margin: 10px;
+}
+.entering-form>form>ul>li::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR4nO2ZzU4TURTHeYHSe2c6idG9r2BYu5GYYOnM9JMCYeXGxBWJaxcVsNAWKi2lgIDAyp1bwiPIA5jwYQyYGCRojBE95k5n2unMnZnOvQPpYk7y33T1+92cO+dMZ2AgrLDCCqsvKzK18zgyufs5MrkHg5O7enZgcMLIOz3bEB03smXKJkTzJG+1IC0bgMaMrOtZA5RrBeeanWRXtaBM4xRn68P+BSb2TiNtcJ/weX/w2AEeZxtaUHblxL9An8DjbAOEzAr4FggMfowfXmAX6A94gU3ACu4Ev+kBb4Cv65e1CTizAihVBaRWIKqUACllPRVAyaoFvq7Fv8BNwGcacC9fgxfrB3BweAxfvl3BxdUvLSdfL+Hw0zlE5QUbPKOAP3jUA/yD51twfH4JboUS8zZ4IV3jEQgAPteEu2PLcHT23RW+I9ANzyHgNqDM8Bsu8GuAMzWYXt2HXgolijZ4Ib3MIhAQfK6pXdj9j0c22LOLH/BwehuwPK+dPIHH2h3ohhdZBIKC1wTUCpxf/LQJPC1/ACFV7e75tB2eUSAYeJKoXILff65tAvenapZ+p8OLqTc8AnzwZDgRAVqJit4uXS1jgk+14NkF8sFslOTZ7nph0+7wYqrKIMCxlKHkknbqrSxANFGkC4zOARp9bcocCGrZBs8hwLbXOLWMV73cOgBRXbTBi0kmAfaljFVgvPAexOSSDZ78xiTgPl2t8KuePe9VQ8+aLWALfIxFgBWebJIsAtd//8EdtUiFjyUXGQR6hW+Dm14ByWqc6ExXcjlpheMzgOOz7QhykQrPIeAfnrbLEwm6wCz1wlrhYyqTgPeAssKb36DME5Y8It0Fqjr8EhU+plY4BDjhyXByF6h6wrML8MCb9hq3OyD2AB9TywwCAcGT1QC7CSQNcGd4ZoEg4Mleg+MOAk9e9QQvKQwCfv7y8NooSa/TSmgLGPAVKryklDgEOOHJU8ZdYNETnl0gAPiWwIyDQKEneElZYBBggO+8QXWvw44CI4We4DkEnKerM7wB3hlQQnxOu7CkZcipaxkpgEhayAZfssFLMpNAMPBOqwH95EtUeEmeZxe4DXhJcYdnEiBfRvoFXpKL/j9w4FR9GKfrpzcDX3aGl83gLXhptPjIt0BYYYUV1sBt1H9ja3+JK6NR4QAAAABJRU5ErkJggg==");
+    background-size: cover;
+}
+.entering-form>form>h6{
+    margin: 10px;
+}
+.entering-form>form>h6>a:link {
+    color: #375084;
+    font-size: 14px;
+    font-weight: 500;
+}
+.registration>p>a:link{
+    color: #67b4f8;
+    font-weight: 550;
+}
+
+
