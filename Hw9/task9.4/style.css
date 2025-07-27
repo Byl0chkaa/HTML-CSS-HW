@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+                "header header "
+                "top-section top-aside"
+                "main-section top-aside"
+                "main-section bottom-aside"
+                "bottom-section bottom-aside"
+                "footer footer";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: header;
+    background: #8D8484;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: top-aside;
+    background: #937575;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: bottom-aside;
+    background: #644C4C;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: top-section;
+    background: #776969;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: main-section;
+    background: #643030;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #441818;
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    background: #BDBDBD;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
